@@ -29,6 +29,12 @@ I -->  G[savacar.rs]
 
 
 
+# Bane testira 2
+
+  Dokle vise da se bavis ovim poslom, hocu da idem na more.
+
+
+
 
 
 
