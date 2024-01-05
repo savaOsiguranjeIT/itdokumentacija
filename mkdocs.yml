@@ -1,4 +1,4 @@
-py
+
 site_name: Sava Osiguranje Dokumentacija
 theme:
   name: material
@@ -75,18 +75,756 @@ extra:
       link: https://twitter.com/savaosiguranje?lang=en
 
 nav:
-  - POČETNA: index.md
-  - OSIGURANJA: 
-    - 'Opis osiguranja': osiguranja/opisOsiguranja.md
-    - 'AUTO POLISE':
-      - 'Izgled': osiguranja/auto.md
-      - 'Opis': osiguranja/autoOpis.md
-    - 'PUTNO': 
-      - 'Izgled': osiguranja/putno.md
-      - 'Opis': osiguranja/putnoOpis.md
-    - 'DOMAĆINSTVO':
-      - 'Izgled': osiguranja/domacinstvo.md
-      - 'Opis': osiguranja/domacinstvoOpis.md
+  - SOFTVER: 
+    - 'Opis': softver/opisSoftver.md
+    - 'ASP':
+      - 'Opis': softver/aspOpis.md
+      - 'Moduli': 
+        - 'Administracija':
+          - 'Deponovani potpisi':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Pravila pristupa dokumentima':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Monitoring slanja obaveštenja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'FAQ': softver/aspFAQ.md   
+        - 'Fakturisanje':
+          - 'Storniranje predračuna':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Pregled predračuna':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Predračuni':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Račun za aktivno saosiguranje':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pregled računa':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Valute':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Kursna lista':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Knjižna odobrenja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pregled  knjižnih odobrenja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Storniranje knjižnog odobrenja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Obracun provizije':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'FAQ': softver/aspFAQ.md                
+        - 'Kadrovska evidencija':
+          - 'Org. jedinice':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Radna mesta':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Sistematizovana radna mesta':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Zaposleni':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pregled sis. radnih mesta i zaposlenih po org. jedinicama':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Promena sistematizovanog radnog mesta':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Zaposleni kojima ističe radni odnos':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Spisak zaposlenih':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Zastupnici po organizacionim jedinicama':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Veza registara i organizacionih jedinica':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Ovlašćenja zaposlenih za rešavanje štete':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Kadrovska evidencija partnera':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Fizička lica':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Kretanje zaposlenog kroz org jedinice':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Spisak zaposlenih kojima ističe radni odnos':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Spisak zaposlenih na dan':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Spisak zaposlenih period rada':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Zaposleni po org jedinicama':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'FAQ': softver/aspFAQ.md                
+        - 'Komercijalni popusti':
+          - 'Administracija profila za komercijalne popuste':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Ocene za određivanje boniteta':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pravila za odredivanje kategorije boniteta':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md   
+          - 'Raspored računanja boniteta':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md      
+          - 'FAQ': softver/aspFAQ.md                    
+        - 'Naplata':
+          - 'Evidentiranje izvoda':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Pregled priznanica':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Mesta uplate':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Elektronski izvodi':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Povezivanje uplata':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pregled izvoda':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Opomene':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Otpis malih iznosa sa izvoda':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Konta za banke':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Obračun zatezne kamate':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Opomena':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md       
+          - 'Prikaz formiranih opomena':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Ugovori o sredstvima placanja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Blagajnicki izvestaji':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Blagajna':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Administracija specifikacije placanja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Administracija grupne fakture':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Evidentiranje izvoda':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pregled priznanica':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Mesta uplate':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Elektronski izvodi':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Povezivanje uplata':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md  
+          - 'Rata na SDO':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Pregled izvoda':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Opomene':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Otpis malih iznosa sa izvoda':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pregled izveštaja za naplatu':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Konta za banke':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Obračun zatezne kamate':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pregled naplate gotovine po prodajnom cvoru':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Ugovori o sredstvima placanja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pomocna blagajna':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Blagajnicki izvestaji':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md       
+          - 'Blagajna':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Administracija specifikacije placanja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Administracija grupne fakture':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Administracija pristupnica':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'FAQ': softver/aspFAQ.md                
+        - 'Pisarnica':
+          - 'Administracija arhivskih kutija':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Pregled arhivskih kutija':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Rok čuvanja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Veza sa organizacionim jedinicama':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Otvaranje/Zatvaranje delovodnka':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Prikaz delovodnika':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Skeniranje dokumenata':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pregled izlazne knjige':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Zavedi izlazni akt':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Zavedi ulazni/interni akt':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Šalter štete':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md    
+          - 'Interna dostavna knjiga':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md     
+          - 'FAQ': softver/aspFAQ.md               
+        - 'Premijsko knjigovodstvo':
+          - 'Obracun kursnih razlika':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Kontirani računi':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Nalog za GK':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pregled GK':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Izvod otvorenih stavki':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pregled polisa':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pregled po zastupniku':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pregled po ugovaraču':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Premije i porezi':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Kartica komitenta':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Datum za knjiženje':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md     
+          - 'Šema kontiranja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Kontni plan':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md  
+          - 'FAQ': softver/aspFAQ.md                
+        - 'Prodaja':
+          - 'Vrste polisa':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Prijem SDO':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Panel prodavca':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Panel verifikatora':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Vinkulacija':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Panel izveštaja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Promena skadence':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Promena ugovaraca':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Nalog za povrat gotovine':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Prikaz presečne polise':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Promena prodavca':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md    
+          - 'Pretraga polisa':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md  
+          - 'Arhiviranje polisa':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'FAQ': softver/aspFAQ.md                
+        - 'Prodajna mreža':
+          - 'Struktura prodajne mreže':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Planiranje prodaje':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Prikaz planova prodaje':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Ovlašćenja za prodajnu mrežu':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Profili':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Profili za proviziju':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Raspodela komercijalnih popusta':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Evidentiranje mesta troška':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Dodela profila za proviziju':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Korektivni faktori za proviziju':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Ovlašćenja u prodajnoj mreži':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Korekcija provizijskih stopa':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Ovlašcenja - Sredstva placanja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Import planova prodaje':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Mapiranje realizacije':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'FAQ': softver/aspFAQ.md                
+        - 'Razvoj poslovanja':
+          - 'Tehnički produkt':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Premije':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Učešće premije u strukturi po tarifama':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Tipovi uvećanja/umanjenja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Tarife po polisi':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Porezi / poreske stope':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Tip stavke i stavka dokumenta':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Porezi po tarifama':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pitanja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Definicija tehničkog produkta':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Paket rizika':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Opis karakteristika':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Opis predmeta':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Vrste polisa':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Klauzule':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Popust po načinu plaćanja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Kamatne stope':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Protivpožarni doprinos':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Način plaćanja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Planske vrste osiguranja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Trzišni produkt':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Definicija tržišnog produkta':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Kriterijumi':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Franšize po ustanovi':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'FAQ': softver/aspFAQ.md                
+        - 'Reosiguranje':
+          - 'Samopridržaj':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Prijava šteta za reosiguranje':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Prikaz evidentiranih šteta u reosiguranju':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Kumuli':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Obeležavanje šteta za kumul':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Ugovori reosiguranja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'FAQ': softver/aspFAQ.md                
+        - 'Statistika':
+          - 'Katalog izveštaja':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Statistika obuhvat':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'FAQ': softver/aspFAQ.md                
+        - 'Štete':
+          - 'Prijave za registraciju':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Isplata šteta':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Prijava štete':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Obrada zahteva':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Preraspodela zahteva':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Verifikacija obračuna':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Sudski postupak':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Kalendar':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Rokovnik':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Obračun povrata bounsa':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Sudski predmeti':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Saosiguranje / reosiguranje':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Kartica lica - štete':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Korespodentne štete':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Nadzor šteta':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Alarmi':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Alarmi za korisnika':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Regresi':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Registar prijava':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Registar šteta':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Sudski korespodentni postupak':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Sudski regresni postupak':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pretraga po licu':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Kontrola datuma':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'FAQ': softver/aspFAQ.md                
+        - 'Stroga evidencija':
+          - 'Dobavljaci':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Stanje obrasca':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Definisanje obrazaca stroge evidencije':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Definisanje magacina':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Narudžbenica OSE':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Dostavnica OSE':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Prijem OSE u magacin':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Trajni izlaz - razduženje':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Kvantitativno-kvalitativni prijem OSE':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Interni promet':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Obrada popisa':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Štampa popisnih lista':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Tabelarni pregled popisa':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Ispravka popisa-zamena serijskog broja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Stanje obrazaca na dan':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Istorijat serijskog broja':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pregled dokumenata u periodu':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Stanje u magacinu, kod zaposlenog i zastupnika':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Evidencija nevažećih obrazaca':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Povrat OSE':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Zaduženje prodavca':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Prezaduženje prodavca':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'SDO':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Direktno zaduženje':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'FAQ': softver/aspFAQ.md                
+        - 'UOS':
+          - 'AO štete sa registarskim područjima u xml':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'AO štete ispis u xml':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'AK štete ispis u xml':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Formiranje xml za slanje AK polisa UOS-u':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Obrada grešaka za polise':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Prijem odgovora od UOS-a':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Priprema paketa za slanje UOS-u':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Promena premijskog stepena':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'FAQ': softver/aspFAQ.md                
+        - 'Zajednički podaci':
+          - 'Jedinice mere':
+            - 'Korisnička uputstva': softver/aspUputstva.md
+            - 'DB Model': softver/aspDBModel.md
+          - 'Pravila za ePotpis':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Karakteristike':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Nivo i vrsta klasifikacije':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Klasifikacija':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Dozvoljen sastav':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Fizička lica':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pravna lica':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Prostorne jedinice':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Registar dokumenata':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pravna lica - setup':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Pregled predmeta':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Spajanje pravnih lica':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Istorija pravnih lica':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Istorija fizickih lica':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Istorija predmeta':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Spajanje fizičkih lica':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Mapiranje pravnih lica':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'Predmeti':
+             - 'Korisnička uputstva': softver/aspUputstva.md
+             - 'DB Model': softver/aspDBModel.md
+          - 'FAQ': softver/aspFAQ.md      
+    - 'B2B': 
+      - 'Opis': softver/b2bOpis.md
+    - 'ADINSURE':
+      - 'Opis': softver/adinsureOpis.md
+    - 'KLIK':
+      - 'Opis': softver/klikOpis.md
+    - 'E-ŽIVOT':
+      - 'Opis': softver/ezivotOpis.md
+    - 'BANK':
+      - 'Opis': softver/bankOpis.md
+ 
+
+    
+
 
 
 
